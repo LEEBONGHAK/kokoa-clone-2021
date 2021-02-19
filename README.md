@@ -1,3 +1,3 @@
 # Kokoa Clone 2021 from Nomadcoder
 
-CSS got so much better!
+HTML & CSS are so much fun!
