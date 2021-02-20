@@ -35,3 +35,6 @@ BEM(Block Element Modifier)
 버튼을 추가하는 방법
  1. <input type="submit" />
  2. <button></button>
+
+dafult css를 초기화하는 방법
+ - 리셋 css : 대부분의 태그에 margin:0, padding:0. boder:0 등을 가진 css 파일
