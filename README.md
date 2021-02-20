@@ -48,3 +48,9 @@ cursor:
 
 inherit
  - 부모 tag로부터 상속 받는 것
+
+form에서 아주아주 중요한 2가지 속성(attribute)
+ 1. action : 어떤 페이지로 data를 보낼건지 지정 가능
+ 2. method : post와 get 두가지 사용 가능
+    ㄴpost : 백엔드 서버에 정보를 전송하는방식
+    ㄴget : 보안에 취약하다. URL에 포함되어도 상관없는 정보들을 get방식으로 보내야된다.
