@@ -38,3 +38,13 @@ BEM(Block Element Modifier)
 
 dafult css를 초기화하는 방법
  - 리셋 css : 대부분의 태그에 margin:0, padding:0. boder:0 등을 가진 css 파일
+ - @import "css파일명" 을 통해 추가하여 다른 css로 불러올 수 있다.
+
+:not()
+ - css에서 뭔가가 적용되는 걸 원하지 않을 때 사용
+
+cursor:
+ - 마우스 포인터 변환을 위해 사용
+
+inherit
+ - 부모 tag로부터 상속 받는 것
