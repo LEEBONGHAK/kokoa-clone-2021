@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Welcome to Kokoa Talk</title>
+        <title>Welcome to Kokoa Clone</title>
     </head>
     <body>
         <!-- 상태 바 만들기 -->
@@ -23,6 +23,22 @@
                 <i class="fas fa-bolt"></i>
             </div>
         </div>
-    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+        <!-- header 만들기 -->
+        <header class="welcome-header" id="welcome-header">
+            <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+            <p class="welcome-header__text">
+                If you have a Kokoa Account, log in with your email or phone number.
+            </p>
+        </header>
+        <!-- 버튼을 포함한 모든 것들 만들기 -->
+        <form> 
+            <!-- - 하나만 쓰이기 때문에 class 지정안함 -->
+            <input type="text" placeholder="Email or phone number" />
+            <input type="password" placeholder="Password" />
+            <input type="submit" value="Log In" />
+            <input type="submit" value="Sign Up">
+            <a href="#">Find Kokoa Acoount or Password</a>
+        </form>
+        <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
     </body>
 </html>

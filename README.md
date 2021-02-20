@@ -29,5 +29,9 @@ BEM(Block Element Modifier)
     - 픽셀이 없는 이미지 파일형식, 수학으로만 구성된 형식 / 좌표로 되어있어서 원하는만큼 늘릴 수 있다.
 3. Heroicons에서 구하기 - 검색 - 클릭 - 붙여넣기
 4. FontAwesome (더 좋음!!) 
- - <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script> (무료판)
+ - <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script> (무료버젼 kit)
  - script는 항상 마지막에 있어야한다. body 태그를 닫기 직전에
+
+버튼을 추가하는 방법
+ 1. <input type="submit" />
+ 2. <button></button>
