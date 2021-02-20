@@ -54,3 +54,10 @@ form에서 아주아주 중요한 2가지 속성(attribute)
  2. method : post와 get 두가지 사용 가능
     ㄴpost : 백엔드 서버에 정보를 전송하는방식
     ㄴget : 보안에 취약하다. URL에 포함되어도 상관없는 정보들을 get방식으로 보내야된다.
+
+navigation
+ - 보통 ul로 나눠지고 그 안에 많은 li들로 구성됨. 그리고 li는 a(anchor)를 가진다.
+ - 구글도 navigation을 찾아서 ul의 li안에 있는 link를 가져오게끔 설정되어 있음
+
+box-sizing: border-box;
+ - 
