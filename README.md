@@ -32,22 +32,28 @@ BEM(Block Element Modifier)
  - <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script> (무료버젼 kit)
  - script는 항상 마지막에 있어야한다. body 태그를 닫기 직전에
 
+
 버튼을 추가하는 방법
  1. <input type="submit" />
  2. <button></button>
+
 
 dafult css를 초기화하는 방법
  - 리셋 css : 대부분의 태그에 margin:0, padding:0. boder:0 등을 가진 css 파일
  - @import "css파일명" 을 통해 추가하여 다른 css로 불러올 수 있다.
 
+
 :not()
  - css에서 뭔가가 적용되는 걸 원하지 않을 때 사용
+
 
 cursor:
  - 마우스 포인터 변환을 위해 사용
 
+
 inherit
  - 부모 tag로부터 상속 받는 것
+
 
 form에서 아주아주 중요한 2가지 속성(attribute)
  1. action : 어떤 페이지로 data를 보낼건지 지정 가능
@@ -55,9 +61,14 @@ form에서 아주아주 중요한 2가지 속성(attribute)
     ㄴpost : 백엔드 서버에 정보를 전송하는방식
     ㄴget : 보안에 취약하다. URL에 포함되어도 상관없는 정보들을 get방식으로 보내야된다.
 
+
 navigation
  - 보통 ul로 나눠지고 그 안에 많은 li들로 구성됨. 그리고 li는 a(anchor)를 가진다.
  - 구글도 navigation을 찾아서 ul의 li안에 있는 link를 가져오게끔 설정되어 있음
 
-box-sizing: border-box;
- - 
+
+CSS Box Padding의 default 원리
+ - CSS에서 200px 크기의 box에 50px의 padding을 원할 경우, 총 크기 200px, (width 150, padding 50 실제 내용 150)의 box를 생각해서 padding : 50px, width : 200px 로 입력한다.
+ - 그러나, 이렇게 하면 CSS에서는 padding을 50px 주고, 200px의 box width는 유지하려 하므로, 총 크기 250px (width 200, padding 50 실제 내용 200)의 box를 가지게 된다.
+ - box-sizing : border-box 를 입력할 경우, padding을 입력해도 box사이즈를 신경쓰지 않는다는 의미이다. - 중요!!
+ - 따라서, 처음에 원했던 50 padding, 150 box 를 가지게 된다.
