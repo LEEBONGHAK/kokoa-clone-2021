@@ -1,0 +1,7 @@
+.alt-screen-header__column:last-child span:first-child {
+  margin-right: 25px;
+}
+
+#chatting-screen {
+  background-color: #abc1d1;
+}
