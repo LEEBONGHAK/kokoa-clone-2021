@@ -1,8 +1,21 @@
 .alt-screen-header {
   display: flex;
-  padding: 40px var(--horizontal-space);
+  padding: 30px var(--horizontal-space);
   justify-content: center;
   align-items: center;
+}
+
+.alt-screen-header__column {
+  width: 33%;
+}
+
+.alt-screen-header__column:nth-child(2) {
+  text-align: center;
+}
+
+.alt-screen-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .alt-screen-header__title {
@@ -10,6 +23,6 @@
   font-weight: 600;
 }
 
-.alt-screen-header__column:nth-child(2) {
-  margin: 0px auto;
+.alt-screen-header__column span:last-child {
+  margin-left: 25px;
 }

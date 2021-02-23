@@ -1,7 +1,24 @@
-.alt-screen-header__column:last-child span:first-child {
-  margin-right: 25px;
-}
-
 #chatting-screen {
   background-color: #abc1d1;
+  height: 11000vh;
+}
+
+#chatting-screen .alt-screen-header,
+#chatting-screen .status-bar {
+  background-color: #abc1d1;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#chatting-screen .status-bar {
+  z-index: 1;
+}
+
+#chatting-screen .alt-screen-header {
+  top: 0px;
+}
+
+.main-chatting {
+  margin-top: 130px;
 }

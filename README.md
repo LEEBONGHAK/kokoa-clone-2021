@@ -72,3 +72,8 @@ CSS Box Padding의 default 원리
  - 그러나, 이렇게 하면 CSS에서는 padding을 50px 주고, 200px의 box width는 유지하려 하므로, 총 크기 250px (width 200, padding 50 실제 내용 200)의 box를 가지게 된다.
  - box-sizing : border-box 를 입력할 경우, padding을 입력해도 box사이즈를 신경쓰지 않는다는 의미이다. - 중요!!
  - 따라서, 처음에 원했던 50 padding, 150 box 를 가지게 된다.
+
+
+z-index
+ - div가 있는 위치가 맨 뒤(default 값 : 0)에서부터 몇 번째인지를 나타낸다.
+ - layer와 같은 것이며, 절대적인 위치(absolute poosition)나 고정된 위치(fixed position)에 대해서 설정 할 수 있다.
