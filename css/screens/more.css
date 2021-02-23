@@ -1,0 +1,9 @@
+.more-suggestions {
+  margin-top: 35px;
+  border-top: var(--main-border);
+  padding-top: 40px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 30px;
+}

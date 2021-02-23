@@ -27,6 +27,10 @@
   color: var(--gray-color);
 }
 
+.user-component__subtitle i {
+  color: tomato;
+}
+
 .user-component__avatar--xl {
   width: 80px;
   height: 80px;
