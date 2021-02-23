@@ -87,3 +87,70 @@
 .message-row--own span {
   margin-left: 5px;
 }
+
+.reply {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+}
+
+.reply .reply__column:first-child {
+  width: 10%;
+}
+
+.reply .reply__column:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.reply input {
+  height: 30px;
+  width: 100%;
+  border: var(--main-border);
+  border-radius: 20px;
+}
+
+.reply input::placeholder {
+  padding: 0px 15px;
+}
+
+.reply__column:last-child > i,
+.reply__column:last-child button {
+  position: absolute;
+  right: -3px;
+  top: 2px;
+}
+
+.reply__column:last-child i {
+  right: 40px;
+  top: 10px;
+}
+
+.reply i {
+  opacity: 0.6;
+}
+
+.reply__column button {
+  background-color: var(--yellow);
+  border-radius: 50%;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+
+.reply__column button i {
+  opacity: 1;
+}
+
+.reply__column button:hover,
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
+  cursor: pointer;
+}

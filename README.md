@@ -77,3 +77,7 @@ CSS Box Padding의 default 원리
 z-index
  - div가 있는 위치가 맨 뒤(default 값 : 0)에서부터 몇 번째인지를 나타낸다.
  - layer와 같은 것이며, 절대적인 위치(absolute poosition)나 고정된 위치(fixed position)에 대해서 설정 할 수 있다.
+
+
+100vh : 화면높이의 100%
+100vw : 화면 너비의 100%
