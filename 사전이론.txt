@@ -1,0 +1,469 @@
+(hx -  header number x)
+<h1>Hello This is my website!</h1>
+<h2>Hello This is my website!</h2>
+<h3>Hello This is my website!</h3>
+<h4>Hello This is my website!</h4>
+<h5>Hello This is my website!</h5>
+<h6>Hello This is my website!</h6>
+h6가 최대
+
+(list tag)
+ordered list tag - 순서가 있는 목록
+unordered list tag - 순서가 없는 목록
+<ul> - unordered list
+  <li>beer</li> li - list item(목록 요소) / ul이든 ol이든 항상 있어야함
+  <li>김치</li>
+  <li>meat</li>
+  <li>milk</li>
+</ul>
+
+<ol> - ordered list
+  <li>beer</li>
+  <li>김치</li>
+  <li>meat</li>
+  <li>milk</li>
+</ol>
+
+
+(a tag)
+a - anchor(닻) / 다른 사이트를 이동하는 방법
+
+<a href="http://www.google.com" target="_blank">Go to google.com</a>
+attributes(속성) : tag에 추가하는 부가적인 정보
+href - 'HTTP reference' or 'hyperlink regerence'
+
+<img src="data:image/jpeg;base64,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" alt="" />
+ - img tag : self-closing tag(자체 닫기 태그)
+ - 인터넷 이미지 뿐만아니라 local(컴퓨터) 내 이미지도 가능
+(단, 같은 폴더 내에 있거나, 없다면 path notation(경로 표기법)을 사용)
+  ex) <img src="img/logo.jpg" />
+
+
+(HTML문서의 구조를 작성하는 방법이 있음)
+<!DOCTYPE html> - 모든 HTML의 시작 / text파일이 아닌 html문서라고 알려주는 것
+<html> - 이 안에 넣는게 html코드
+  <head> - 웹사이트 페이지의 환경 설정
+    <title>Home - My first website.</title> - 웹사이트 제목 
+  </head>
+  <body> - 사용자가 볼 수 있는 content 표기
+    <h1>Hello!</h1>
+    <img src="data:image/jpeg;base64,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" alt="" />
+    <img src="img/logo.jpg" alt="" />
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="kr"> - 유용한 attribute / 검색엔진들에 도움을 주기 위해서 사용 즉, 사이트에서 사용되는 언어가 무엇인지 말해주는 것
+  <head> 
+    <link 
+      rel="shortcut icon" 
+      size="16x16 32x32 64x64" 
+      href="https://nomadcoders.co/m.png" 
+    />
+    <title>Home - My first website.</title>
+    meta - 웹사이트의 부가적인 정보
+    <meta name="description" content="This is my website" /> - description은 구글이 검색 할 때 찾는 태그
+    <meta charset="utf-8" /> - 매우 중요!! 브라우제에게 text를 어떻게 그려달라는지 말해줌
+  </head>
+  <body>
+    <h1>Hello!</h1>
+    <img src="data:image/jpeg;base64,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" />
+    <img src="img/logo.jpg" />
+    <p>klasjdl <abbr title="jdfl"> skdjflkjlaksdjfljsadlkfksajdfl</abbr></p>
+    <pre>hello!</pre>
+    <p>
+      2<sub>5</sub><sup>2</sup>
+    </p>
+    <p>
+      I like to live in
+      <mark>South Korea</mark>
+    </p>
+    <audio src="dlkafs" controls="enabled" autoplay="enabled"></audio>
+  </body>
+</html>
+
+
+(form tags)
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Home - My first website.</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="profile">Profile Photo</label>
+        <input id="profile" type="file" accept=".pdf" />
+      </div>
+      <div>
+        <label for="first-name">First Name</label>
+        <input id="first-name" placeholder="Name" type="text" required />
+      </div>
+      <input placeholder="Last Name" type="text" required />
+      <input placeholder="Username" type="text" minlength="10" required />
+      <input placeholder="password" type="password" required />
+      <input type="submit" value="Create Account" required />
+      <label for="website">Website</label>
+      <input type="date" id="website"> - id : unique identifier(고유식별자)
+    </form>
+  </body>
+</html>
+
+
+non-semantic : 의미없는 tag
+div : division(구분) - 박스라고 생각해도 됨
+semantic 으로 구조화하면 편리하며 읽기 쉬움
+header : div 대체 가능(박스 기능) / head와는 다름!!! / 웹사이트의 header 의미
+main : 메인 컨텐츠들이 있는 곳
+footer : 꼬릿말
+
+
+(CSS)
+CSS : cascading styl sheet - 순서가 결과에 영향을 준다.
+html 파일에 css를 추가하는 첫번째 방법 : head안에 style tag를 추가 - inline css
+html 파일에 css를 추가하는 두번째 방법 : css파일을 만들어 link tag를 이용해 연결(더 좋은 방법) - external css
+
+
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Home - My first website.</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      h1 {
+        color: yellowgreen;
+        text-decoration: underline;
+        font-weight: 800;
+        font-size: 50px;
+        font-style: italic;
+      }
+      address {
+        text-align: center;
+        color: tomato;
+      }
+      </style>
+  </head>
+  <body>
+    <header>
+      <h1>The Nico Times</h1>
+    </header>
+    <main>
+      <address>123 Road Altavista</address>
+    </main>
+    <footer>
+      &copy; 2020 N.C
+    </footer>
+  </body>
+</html>
+
+
+(BOX model)
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Home - My first website.</title>
+    <style>
+      * {
+        border: px solid black;
+      }
+      div {
+        /* display: inline; */
+        height: 150px;
+        width: 150px;
+        background-color: whitesmoke;
+        
+      }
+      span {
+        background-color: turquoise;
+        /* display: block; */
+      }
+      html {
+        background-color: tomato;
+      }
+      body {
+        background-color: rgb(150, 57, 130);
+        margin: 20px 15px 12px 9px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <span>Hello</span>
+    <span>Hello</span>
+    <a href="#">link</a>
+    <address>Hello</address>
+    <span>Hello</span>
+    <code>hello</code>
+    <p>kdsajfklajskldf</p>
+  </body>
+</html>
+
+div : 가장 기본적인 box 옆에 아무것도 오지 못함
+span : 바로 옆에 다른 요소가 올 수 있음 
+block(=box) : 옆에 다른 요소가 못 오는 것
+inline(in the same line) : 옆에 다른 요소가 올 수 있는 것
+
+block -> inline, inline -> block 변환 가능(css에서 display를 이용해서)
+어떤 요소가 inline이면 높이와 너비를 가질 수 없다.
+
+* block의 3가지 특징
+margin : box의 border(경계)의 '바깥'에 있는 공간 / 하나만 입력 : 전방향, 두개 : 상하, 좌우, 네개 : 상, 우, 하,좌
+경계가 같다면 두 margin은 하나로 인식됨(위, 아래만 적용됨) 따라서 주의!!!
+padding : box의 경계로부터 '안쪽'에 있는 공간(margin의 반대 개념)
+border : box의 경계(border)
+
+inline은 margin을 좌우로만 가질 수 있다.
+
+
+(Flexbox)
+<!DOCTYPE html>
+  <html lang="kr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+      body {
+        margin: 20px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+      }
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        background-color: teal;
+        font-size: 20px;
+        color: white;
+      }
+      #se {
+        background-color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <div>1</div>
+    <div id="se">2</div>
+    <div>3</div>
+  </body>
+</html>
+
+flexbox의 규칙
+1. 자식 엘리먼트에는 어떤 것도 적지 말아야 된다. 부모 엘리먼트에만 명시해야함
+- 부모 엘리머트를 flex container로 만들어야 함(display: flex;)
+2. 주축(main axis) (좌 -> 우) : justify-content
+3. 교차축(cross axis) (상 -> 하) : align-items
+flex-direction : 주축, 교차축의 default값을 바꿔줄 수 있음(default = row)
+flex-wrap : 화면이 작아질 때 content가 밑으로 내려가게 만듬 
+
+
+(position)
+position : 레이아웃보다 위치를 조금 조정하고 싶을 때 사용
+position: fixed; - 스크롤을 이용해도 그자리에 고정되어 있다.
+position: static; - 레이아웃이 박스를 처음 위치하는 곳에 두는 것(default)
+position: relative; - top, bottom, left, right 사용 가능 / 처음 위치하는 기준으로 수정 가능 !!!
+podition: absolute; - top, bottom, left, right 쓰고 싶을 때 사용가능 / 가장 가까운 position: relative; 부모를 기준으로 이동 !!!
+
+
+(Pseudo Selector)
+특정 class 선택하기(세부적으로)
+- (selector):(pseudo selector) {} 이용
+- (selector)[attributes] {} 사용해도 가능
+
+부모 > 자식 {} : 바로 밑 자식 selector에만 적용 가능
+자식1 + 자식2 {} : 자식1 다음에 오는 자식2에 적용 가능(바로 밑 형제를 찾는 것)
+자식1 ~ 자식3 {} : 형제가 바로 뒤에 오지 않을 경우 사용(즉, 중간에 자식2가 존재할 때) 
+
+
+(Attribute selectors 특성 선택자)
+그냥 input과 required input이 있다면, input:required{}를 통해서, required input에만 속성을 적용시킬 수 있다.
+input{} 을 통해, [input 이름]에 해당하는 input 속성을 따로 줄 수 있다.
+여기서, input[placeholder="First name"]은 First name에만 속성을 주지만, input[placeholder~="name"]은 name이 들어가는 모든 input에 속성을 부여할 수 있다.
+"~="은 name을 포함하고 있다는 의미가 되는 것이다.
+a[href$=".org"] → "$="는 ".org"로 끝나는 모든 anchor를 선택할 수 있다.
+a[href^=".org"] → "^="는 ".org"로 처음에 오는 모든 anchor를 선택할 수 있다.
+attribute selectors를 이용하면, class를 지정할 필요 없이 CSS만으로 각각의 속성을 부여해줄 수 있다.
+
+*= "hello" 라고 하면 ㅁㄴㅇㄹㄴㅇㄹhelloㅁㄴㅇㄹㄴㅇㄹ 라고 줘도 선택
+~= "hello" 라고 하면 앞뒤에 공백이 있는 상태에서 hello 인 경우만 선택
+
+
+(가장 중요한 Selector states)
+active - 버튼을 누르고 있을 때
+hover - 마우스가 대상 위에 있을 때
+focus - 키보드로 선택되었을 때
+visited - 링크에만 적용됨 / 클릭하여 방문한 링크의 상태를 바꿔줌
+focus-within - 부모 요소에게 적용. 자신의 자식 요소 중 하나가 focused되었을 때 적용
+
+조건을 나열해 여러 상황을 설정할 수 있음.
+ex) high-tag:hover low-tag:focus {} 인 경우, 
+상위 요소위에 마우스 커서가 있고,
+하위 요소가 focused되었을 때 효과를 적용하게 된다.
+and 의 개념으로 받아드리면 될 것 같다.
+
+
+(여러가지 pseudo element)
+ - :(콜론)이 2개인 게 특징
+1) :: placeholder
+ - placeholder의 특성만 바꾸고 싶을 때 사용합니다.
+2) :: selection 
+ - 클릭해서 긁을 때 발생합니다.
+3) :: first-letter
+ - 첫 글자에만 적용됩니다.
+4) ::first-line
+ - 첫 줄에만 작용합니다.
+
+
+(컬러와 변수는 css에서 매우 중요)
+css에서 알아야할 color system
+  1) hexadecimal color (16진수 컬러)
+      #000000 <
+  2)RGB 방식
+      -> 이건 디자이너들이 많이쓴다
+        rgb(252,206,0); 이런식
+      rgba (205,23,0, 0.5);
+      4번째 숫자는 투명도를 말한다 !
+      a 즉 알파는 투명도를 말하는 것이다
+
+Variable (custom properties )
+이게 css를 프로그래밍언어처럼 보여준다
+프로그래밍언어는아니지만 그 장점을 보여주는것임
+
+:root {} 라는 엘리먼트에 변수를 추가하는 것이다
+:root은 기본적으로 모든 document의 뿌리이며, 출발점이 되는 것이다
+여기에 변수이름을 쓰고 --main-color라고 변수이름을 주고 이것을 document의 root에 저장하는것이다
+
+--를 써주고 변수이름을 써줘야한다
+변수는 -- 2개 그리고 변수이름, 빈공간이 있다면 -로 채워야한다.
+물론 컬러만 저장할 수 있는게 아니다!
+--default-border: 1px solde var(--main-color);
+
+
+(Transition)
+ - 어떤 상태에서 다른 상태로의 '변화'를 보내주는 애니매이션이다
+
+규칙
+1. transtion은 state가 없는 요소에 붙어야한다
+  처음 생긴곳에 있어야한다
+  state에 transition을 준다면 변화를 준것(예를들면 hover라면 마우스를 갖다 댄것)을 그만할경우(마우스를 뗄경우)
+  원래상태로 바로 돌아간다
+2. transtion 에 변화를 준것들은 state에 들어있는것들이 기준이 되어 바뀌는것이다
+  바뀌는 것들에 한정하여 transition 이 일어날 수 있다
+
+ease-in function : 브라우저에게 변화하는 방법을 알려주는 역할
+  linear - 같은 속도로 변화
+  ease-in - 끝이 빨라짐
+  ease-out - 끝이 느려짐
+  ease-in-out - 시작과 끝이 느림
+all : 변화 요소를 한번에 다룬다.
+따로 다루고 싶으면 각각 써주면 됨
+cubic-bezier(0, 0, 0, 0); 으로 직접 설정할수도 있다.
+
+
+(Transformation)
+- 한 요소를 transform(변형)시킬 수 있다.
+- border-radius에 50%를 준다면 원이 된다.
+- translate은 transformation을 적용 시키긴 하지만, 다른 형제(sibling)을 변화시키진 않는다.
+  → transformation은 box element를 변형시키지 않는다.
+  → margin, padding이 적용되지 않는다. 일종의 3D transformation이기 때문이다.
+  → margin, padding을 위해서 translateX, translateY를 사용하지 않는다.
+- transform과 transition을 조합하면 더 역동적인 애니메이션을 만들 수 있다.
+- CSS 3D는 GPU로 돌아가므로, 3D 작업을 할 수 있다.
+
+
+(계속 연결되는 애니메이션 만들기)
+@keyframes 'animationName' { //애니메이션 생성
+  from{ //시작
+  }
+  to{ // 끝
+  }
+  }
+
+animation : 'animationName' '지속 시간' ease-in funtion; // 미리 생성한 애니메이션 사용가능
+ - infinite 속성을 추가해서 계속 반복 할 수 있다.
+
+@keyframes 에 퍼센트를 나눠서 작성 할 수 있다.
+ - from, to 대신에 0%, 50%, 100% 이런식으로 여러단계로 나누어 애니매이션 생성가능
+ - 0~100% 까지 원하는만큼 애니메이션을 나누기 가능
+ - 다른 property들도 애니매이션으로 만들 수 있다.
+ - 꼭 transform만 써야하는 건 아니지만, transform을 쓰는걸 권한다.
+ - 일부 property는 애니매이션이 잘 안되기 때문이다.
+
+애니메이션으로 변경 할 수 없는것들(ex fontsize) 도 있음.
+css animations 을 검색해보자!
+
+
+(Media Query)
+- Media query는 오직 CSS만을 이용해서 스크린의 사이즈를 알 수 있는 방법이다.(웹사이트를 보고 있는 사용자의 스크린 사이즈)
+- @media screen and (max-width: 00px) {} 
+  을 이용하여 몇 픽셀부터는 달라보이도록 만들 수 있다. 이를 통해 스크린의 사이즈를 알 수 있다.
+- min 사이즈와 max사이즈를 조절하여 단계별로 만들면, 스크린 사이즈의 범위를 알 수 있다.
+- 브라우저에서 inspect의 device toolbar를 이용하여 핸드폰 기종 별 사이즈로 브라우저를 볼 수 있다.
+- media screen에 (orientation: landscape)를 이용하면, 세로모드인지 가로모드인지도 구별 할 수 있다.
+
+@media screen and (max-width: 400px){ // 스크린 넓이가 400px 보다 작으면
+  background-color: tomato
+}
+
+(orientation : portrait) - 세로모드
+ㄴlandscape - 가로모드
+
+
+(git의 필요성)
+ - 코드가 긴 경우에는 파일의 히스토리를 알고 있어야 한다. 처음에 뭘 작성했는지, 나중에 뭘 추가했는지, 변경 내역 등을 알고 있어야 하는데 이럴 때 git을 사용하면 것이 도움이 된다.
+ - 내가 원하는 파일의 변경된 내용을 확인 할 수 있다.
+ - git은 programming에서 주로 사용되는 도구다.
+ - text 파일에서만 사용 할 수 있는 것이 아니라, excel, image, song 등등 다른 파일 형식에도 사용 할 수 있다.(git 시스템은 파일을 binary format(0101010 같은 것)으로 인식하기 때문)
+ - git은 어떤 파일이든 수정된 내역을 알 수 있다.
+ - code에 주로 사용되는 도구이지만, 다른 형식의 파일도 변경 내역을 추적하는데 사용할 수 있다.
+
+  ⇒ 한마디로, git은 파일을 계속 추적(Tracking)하는 것이다.
+
+
+(github의 필요성)
+ - 코딩 작업을 열심히 해놨는데, 컴퓨터를 잃어버리고 파일도 날아가고 변경한 기록도 사라지는 경우를 대비해서 github을 사용한다.
+ - github에는 기본적으로 변경내역을 업로드 한다.
+ - git은 계속 추적하면서 변경내역을 관리해주고, github에는 그 변경내역을 업로드한다.
+ - git은 파일의 변경내역을 게속해서 추적해주는 version control system
+ - github은 파일 내역과 파일들을 올려주는 공간
+
+git: 파일을 추적하면서 관리해주는 도구
+github: git의 변경 내역을 볼 수 있는 사이트
+ - repositoy는 자신의 코드가 살고 있는 곳.
+  → 코드의 변경내역과 그 히스토리를 갖고 있는 폴더.
+ - commit은 기본적으로 시점(pointing time)
+  ex) "이제 이 파일의 버전을 저장하고 싶어."라고 말하는 시점.
+  ex) 커밋이 255개가 있다면, 프로젝트를 255개의 버전으로 저장했다는 의미.
+
+
+(Repository 만드는 법)
+1. 컴퓨터에 폴더를 만든 다음 그 폴더를 github에 올리는 방식
+2. 처음부터 github 내에 repository를 만들어주는 방법
+ - 이름은 공백 없이 소문자랑 숫자만
+ - github desktop은 초보자들이 github과 작업을 하기 위한 도구
+
+README.md (markdown 형식) 꼭꼭 만들어야 함 - 모든 git repository가 가지고 있어야 되는 파일
+markdown은 서식이 있는 문서를 작성하는 것
+'#' : 마크다운에서 제목을 쓰기 위한 태그
+
+
+(맘에 들었다면 publish(게시) 하기)
+1. 파일 선택
+2. commit 생성
+  - commit은 이 repository의 버전을 저장하는 시점. 즉, 지금 이 시점의 파일 버전을 저장하는 것
+  - 내용은 없어도 되지만 제목은 꼭 있어야함
+3. publish branch 클릭
+
+Commit할 때마다 publish 해줘야함
+그렇지 않으면 컴퓨터만 알고 있는 상태(즉, github에 반영 안됨)

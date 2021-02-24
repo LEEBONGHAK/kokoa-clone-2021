@@ -94,4 +94,10 @@ will-change
  - 그래픽 카드를 이용해서 애니메이션을 가속화한다.
 
 
-focus-within : element 내부에 focus 된 element가 있는지 보는 것
+focus-within : element 내부에 focus 된 element가 있는지 보는 
+
+
+Branches on Git
+ - git에서 branch는 코드들의 평행세계
+ - 어떤 commit에서든 분화할 수 있음
+ - branch끼리 합치는 것 -> merge
