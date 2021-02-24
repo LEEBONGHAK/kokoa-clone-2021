@@ -88,3 +88,7 @@ Splash Screen
  - 애니메이션의 마지막 값을 기억하고 싶다면 forwards라는 단어를 사용 -> 마지막 keyframes를 기억한다.
  - animation-delay로 애니메이션 지연 가능
  - visibility: hidden; -> 마우스에 걸리지 않게 빠져버리게 만드는 것
+
+will-change
+ - 애니메이션이 좀 더 부드럽게 동작할 수 있게 만듬 -> 브라우저에게 어떤 것이 변할 건지 예고하는 것
+ - 그래픽 카드를 이용해서 애니메이션을 가속화한다.
