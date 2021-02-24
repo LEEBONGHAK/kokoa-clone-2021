@@ -1,0 +1,26 @@
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+
+/* 645px보다 작으면 화면을 보여줌 */
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}
+
+/* 화면이 너무 큰 경우 스크롤을 사용 못하게 하여 다 가려질 수 있도록 만듬 */
+@media screen and (min-width: 645px) {
+  body {
+    overflow: hidden;
+  }
+}
