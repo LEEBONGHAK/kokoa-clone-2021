@@ -92,3 +92,6 @@ Splash Screen
 will-change
  - 애니메이션이 좀 더 부드럽게 동작할 수 있게 만듬 -> 브라우저에게 어떤 것이 변할 건지 예고하는 것
  - 그래픽 카드를 이용해서 애니메이션을 가속화한다.
+
+
+focus-within : element 내부에 focus 된 element가 있는지 보는 것
