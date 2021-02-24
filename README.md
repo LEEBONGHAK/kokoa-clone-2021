@@ -97,7 +97,27 @@ will-change
 focus-within : element 내부에 focus 된 element가 있는지 보는 
 
 
+<GitHub Desktop 이용>
 Branches on Git
  - git에서 branch는 코드들의 평행세계
  - 어떤 commit에서든 분화할 수 있음
  - branch끼리 합치는 것 -> merge
+
+
+Publishing on github Pages
+ - 특별한 이름이 붙여진 특별한 branch를 가지고 있으면 Github에서 공짜로 Static 호스팅을 할 수 있도록 해줌
+ - 즉, 누구나 웹사이트를 무료로 업로드할 수 있고, Github에서 공짜 URL제공해줌
+ - static website : HTML, CSS, JavaScript로만 이루어진 웹사이트. 즉, fornt-end만 가능하고 back-end는 다룰 수 없다.
+ - 사용하기 위한 규칙
+    1. 'gh-pages' 라는 branch를 생성 (branch이름이 필수적으로 'gh-pages'라고 해야한다.)
+    2.  저장소가  Public 상태여야한다.
+    3.  자신의 저장소로 이동 후 environments에 github-pages로 이동
+    4.  view deplyment 클릭 -> 생성된 URL 로 이동
+    5.  URL : (유저명).github.io/(저장소 이름)
+
+
+Updating Gitjub Pages
+ - Github 페이지 업데이트 하기
+   1. master branch에서 수정 후 commit  -> push 
+   2. gh-pages branch로 이동 -> Branch - Update from master - push
+   3. Deployments로 이동 후 새로운 view deplyment 클릭
