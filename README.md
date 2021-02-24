@@ -81,3 +81,10 @@ z-index
 
 100vh : 화면높이의 100%
 100vw : 화면 너비의 100%
+
+
+Splash Screen
+ - CSS의 keyframes 애니메이션으로 splash 애니메이션을 줄 수는 있지만, 완벽하게 없어진 상태를 만들 수 없다. 따라서 JavaScript가 필요하다.
+ - 애니메이션의 마지막 값을 기억하고 싶다면 forwards라는 단어를 사용 -> 마지막 keyframes를 기억한다.
+ - animation-delay로 애니메이션 지연 가능
+ - visibility: hidden; -> 마우스에 걸리지 않게 빠져버리게 만드는 것
