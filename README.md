@@ -37,8 +37,8 @@ BEM(Block Element Modifier)
 
 
 버튼을 추가하는 방법
- 1. '<input type="submit" />'
- 2. '<button></button>'
+ 1. `<input type="submit" />`
+ 2. `<button></button>`
 
 
 dafult css를 초기화하는 방법
